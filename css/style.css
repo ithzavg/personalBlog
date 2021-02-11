@@ -9,21 +9,29 @@ html{
 }
 
 body{
-    background-color: #ddfdeb;
+    background-color: #ffffff;
     font-family: 'Questrial', sans-serif;
 }
 
 .header{
-    height: 25vh;
+    height: 23vh;
 }
 
-.encabezado{
-    color: #EA5C5A;
+.header__encabezado{
+    color: #FD6B54;
     font-weight: bold;
     font-size: 5rem;
-    text-shadow: 2px 3px 0 #c4c5d0;
-    padding:20px;
+    text-shadow: 1px 1px 0 #c4c5d0;
+    padding: 20px 20px 0px 20px;
     text-align: center;
+}
+
+.header__subtitle{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5BC0A5;
 }
 
 .nav{
@@ -32,34 +40,67 @@ body{
     text-align: center;
 }
 .nav-menu{
-    background-color: #EA5C5A;
+    background-color: #D4ECE6;
 }
 
 .nav li{
     display: inline-block;
     font-size: 20px;
-    color: #fff;
+    color: #5BC0A5;
     margin: 10px 0;
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
+}
+
+.nav li:hover{
+    color:#FD6B54;
 }
 
 .nav p{
     font-size:1.3rem;
     font-weight: bold;
+    color: #5BC0A5;
 }
 
 .main-container{
-    height: 56vh;
+    display: flex;
+    height: 67vh;
+    background-color: #FFDCD2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    padding: 15px;
+}
+
+.info p {
+    font-size: 1.5rem;
+    color: #4a4747;
+    
+}
+
+.info ul {
+    font-size: 1rem;
+    list-style: none;
+    color: #4a4747;
+    margin-top: 30px;
+}
+
+.img__main-container{
+    width: 115px;
+    border-radius: 10px;
+}
+
+.icon__info{
+    width: 20px;
 }
 
 .footer{
-    height: 19vh;
+    height: 10vh;
 }
 
 .img-footer{
     width: 25px;
 }
-/*Encabezado #E95C59*/
-/*Cuerpo #020204 */
-/*Blanco #00000*/
