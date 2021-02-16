@@ -65,7 +65,7 @@ body{
 
 .main-container{
     display: flex;
-    height: 67vh;
+    height: 72vh;
     background-color: #FFDCD2;
     flex-direction: column;
     align-items: center;
@@ -89,7 +89,7 @@ body{
 }
 
 .img__main-container{
-    width: 115px;
+    width: 350px;
     border-radius: 10px;
 }
 
