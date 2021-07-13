@@ -1,48 +1,15 @@
-.main-container{
-    height: 61vh;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
 .header{
-    height: 25vh;
+    padding: 10px;
 }
 
-.nav{
-    padding: 5px;
-    list-style: none;
-    text-align: center;
+.header__img-container{
+    display: flex;
+    justify-content: center;
+}
+.header__profile{
+    width: 300px;
 }
 
-.footer{
-    height: 10vh;
-}
-
-
-.img__main-container{
-    width: 535px;
-}
-
-.info{
-    width: 45%;
-    padding: 25px;
-}
-
-
-.info p {
-    font-size: 2rem;  
-}
-
-.info ul {
-    font-size: 1.5rem;
-    
-}
-
-
-
-.name__main{
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
+.social-icons{
+    width: 7%;
 }
