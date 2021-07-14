@@ -18,6 +18,7 @@ body{
     flex-direction: column;
     align-content: center;
     padding: 10px;
+    margin-top: 10%;
 }
 
 .header__img-container{
@@ -25,7 +26,7 @@ body{
     justify-content: center;
 }
 .header__profile{
-    width: 200px;
+    width: 260px;
 }
 
 .header__encabezado{
@@ -44,9 +45,14 @@ body{
     font-weight: bold;
     color: #5BC0A5;
 }
+.header__text{
+    text-align: center;
+    font-size: 1.7rem;
+    color: #fff;
+}
 
 .img-social{
-    width: 20px;
+    width: 30px;
 }
 
 .header__social{
@@ -60,8 +66,35 @@ body{
 
  .text-social{
     text-align: center;
+    font-size: 1.5rem;
     color: #F1B385;
+    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.info{
+    padding:50px;
+}
+
+.info__content{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+.info__content-green{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #5BC0A5;
+    margin-bottom: 12px;
+}
+
+.info__link{
+    color: #F1B385;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
